@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Pragati+Narrow&display=swap');
+:root{
+  --c1: rgb(235, 245, 236);   --c2: rgb(18, 39, 66);
+  --c3: rgb(196, 105, 155);   --c4: rgb(219, 17, 128);
+  --f1: 'Pragati Narrow', sans-serif;
+}
+body{
+  padding: 2em;
+  background-color: var(--c1);
+  color: var(--c2);
+  font-family: var(--f1);
+}
+a{
+  color: var(--c3);
+}
+a:hover{
+  color: var(--c4);
+}
+.sidebar-nav {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
+.btn.btn-primary{
+background-color: var(--c2);
+border: none;
+}
+.sidebarIMG{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
